@@ -1,0 +1,83 @@
+.boxes{
+    display: flex;
+    gap: 50px;
+    padding: 30px 0 30px 15px;
+    background-color: black;
+    width: 100%;
+    height: 700px;
+}
+
+.box1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.box2{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.box3{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.box4{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.box5{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.box6{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+  @media only screen and (max-width: 1250px) {
+    .boxes {background-color: yellow; gap: 30px; flex-wrap: wrap;}
+    .box1 {background: blue; width: 14%;}
+    .box2 {background: blue; width: 14%;}
+    .box3 {background: blue; width: 14%;}
+    .box4 {background: blue; width: 14%;}
+    .box5 {background: blue; width: 14%;}
+    .box6 {background: blue; width: 14%;}
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .boxes {background-color: red; flex-wrap: wrap;}
+    .box1 {background: black; width: 30%;}
+    .box2 {background: black; width: 30%;}
+    .box3 {background: black; width: 30%;}
+    .box4 {background: black; width: 30%;}
+    .box5 {background: black; width: 30%;}
+    .box6 {background: black; width: 30%;}
+  }
+
+  @media only screen and (max-width: 768px) {
+    .boxes {background-color: purple; flex-wrap: wrap;}
+    .box1 {background: orange; width: 45%;}
+    .box2 {background: orange; width: 45%;}
+    .box3 {background: orange; width: 45%;}
+    .box4 {background: orange; width: 45%;}
+    .box5 {background: orange; width: 45%;}
+    .box6 {background: orange; width: 45%;}
+  }
+
+  @media only screen and (max-width: 420px) {
+    .boxes {background-color: purple; flex-wrap: wrap; gap: 10px;}
+    .box1 {background: orange; width: 96%;}
+    .box2 {background: orange; width: 96%;}
+    .box3 {background: orange; width: 96%;}
+    .box4 {background: orange; width: 96%;}
+    .box5 {background: orange; width: 96%;}
+    .box6 {background: orange; width: 96%;}
+  }
